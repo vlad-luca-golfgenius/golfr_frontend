@@ -14,10 +14,10 @@ const Layout = ({ children }) => {
       <header className="flex flex-row w-full px-10 py-2 shadow">
         <span className="h-8 items-center space-x-6">
           <span className="text-2xl">
-            <Link href="/">
+            <Link href="/" passHref={true}>
               <span className="text-2xl">Golfr 🏌️</span>
             </Link>
-            <Link href="/">
+            <Link href="/" passHref={true}>
               <span className="text-xl">Home</span>
             </Link>
           </span>
